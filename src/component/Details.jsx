@@ -26,7 +26,7 @@ function Details(){
 //     })
     return (
         <div className="flex items-center justify-center h-screen w-full bg-red-50 ">
-            <div className="bg-red-100 h-[70vh] w-[30vw] flex flex-col items-center justify-center">
+            <div className="bg-red-100 h-[50vh]  md:h-[50vh] lg:h-[70vh] w-[80vw] md:w-[50vw] lg:w-[30vw] flex flex-col items-center justify-center">
                 <h1 className="p-10 scale-125 hover:scale-150 cursor-pointer text-9xl group-hover:scale-110 pt-4 text-center overflow-hidden " >{character}</h1>
                 <div className="mt-16">
                 <h1 className="capitalize text-2xl font-semibold">Name - {slug}</h1>
